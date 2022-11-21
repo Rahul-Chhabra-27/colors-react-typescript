@@ -1,0 +1,1 @@
+type AdjustColorAction = UpdateHexColorAction | UpdateRGBColorAction;
