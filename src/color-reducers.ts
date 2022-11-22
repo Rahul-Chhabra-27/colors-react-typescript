@@ -15,6 +15,7 @@ export type UpdateRGBColorAction = {
 type ColorState = {
     hexColor:string;
 }
+// type ColorActions = UpdateHexColorAction | UpdateRGBColorAction;
 export type AdjustColorAction = UpdateHexColorAction | UpdateRGBColorAction;
 
 export const initialState : ColorState = {
